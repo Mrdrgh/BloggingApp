@@ -3,7 +3,7 @@
 this is a blogging app built using the Django Rest Framework to make the API, JWTs, Axios Interceptor, and React js, users can register, login, make blogs, update or delete them, users can also follow friends to see their blogs on the Featured page, they can also manage their Follows in the Profile, as well as updating the Bio and the Profile Picture.
 
 ## Requirements
-- Backend: run ```pip install -r requirements.txt```, the requirements file is [here](https://github.com/Mrdrgh/Django_Pjs/blob/main/NotesApp/backend/backend/requirements.txt)
+- Backend: run ```pip install -r requirements.txt```, the requirements file is [here](https://github.com/Mrdrgh/BloggingApp/blob/master/backend/requirements.txt)
   - It is recommended to have a Venv (vitual Environment) running when installing these dependencies
   ---
 - Frontend:
