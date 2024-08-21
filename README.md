@@ -13,7 +13,7 @@ this is a blogging app built using the Django Rest Framework to make the API, JW
 ---
 ## Usage
 - in the `backend` folder run this command: ```python manage.py runserver```
-- in the `frontend` folder run this command: ```npm run dev```
+- in the `frontend` folder run this command: ```npm install ; npm run dev```
 - now you can navigate to `https://localhost:5173/` .
 ---
 - you can also visit the Django admin page, to view all the instances of Users, as well as any related data, just run ```python manage.py createsuperuser```, and connect with the superuser into the Admin page, which usually is `localhost:8000/admin`.
