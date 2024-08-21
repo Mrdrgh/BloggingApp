@@ -66,7 +66,7 @@ function Form({ route, method }) {
     );
 
     return (
-        <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '95vh', background: 'rgb(184,182,227)', background: 'linear-gradient(90deg, rgba(184,182,227,1) 0%, rgba(176,201,205,1) 52%, rgba(186,195,200,0.895331374737395) 99%)'}}>
+        <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '95vh', background: 'linear-gradient(90deg, rgba(184,182,227,1) 0%, rgba(176,201,205,1) 52%, rgba(186,195,200,0.895331374737395) 99%)'}}>
             <div className="card p-4 shadow" style={{ width: '100%', maxWidth: '500px', borderRadius: '15px' }}>
                 <form className="form" onSubmit={handleSubmit}>
                     <h1 className="text-center mb-4">{method === "login" ? "Login" : "Register"}</h1>
